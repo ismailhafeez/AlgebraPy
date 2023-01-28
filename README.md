@@ -16,8 +16,6 @@ As this is a project still in development, it has many limitations.
 > 
 > The variable *must* be the first value in the equations (Ex: x + 2 = 4)
 > 
-> Ample spaces must be places between each character.
-> 
 > Support for Exponents is yet to be added. As of now, basic addition/subtraction/multiplication/division is supported.
 
 Updates will be added soon!
