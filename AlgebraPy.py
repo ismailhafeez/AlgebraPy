@@ -4,7 +4,7 @@ class Algebra:
         
     def BasicSolution(self, question):
         answer = int(question.split("=")[1])
-        products = question.split(" =")[0].split(" ")
+        products = [i for i in question.split("=")[0]]
         for i in products:
             try:
                 products[products.index(i)] = int(i)
