@@ -20,7 +20,7 @@ class Algebra:
                     self.var.append(i)
         self.reactants.reverse()
         
-    def EquationOneVar(self, question):
+    def Equation(self, question):
         self.question = question
         self.splitQuestion()
         print(self.reactants)
