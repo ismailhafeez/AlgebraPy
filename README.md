@@ -12,9 +12,8 @@ print(solver.BasicSolution("x + 5 = 10")
 Output: 5
 ```
 As this is a project still in development, it has many limitations.
-> Only equations of one variable can be solved.
-> 
-> The variable *must* be the first value in the equations (Ex: x + 2 = 4)
+
+> The variable(s) *must* be the first value(s) in the equations (Ex: x + 2 = 4)
 > 
 > Support for Exponents is yet to be added. As of now, basic addition/subtraction/multiplication/division is supported.
 
