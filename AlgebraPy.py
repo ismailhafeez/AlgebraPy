@@ -11,9 +11,10 @@ class Algebra:
             try:
                 products[products.index(i)] = int(i)
             except Exception as e:
-                pass
+                if i.isalpha() == True:
+                    var = i
         products.reverse()
-        while products != ['x']:
+        while products != [var]:
             for i in products:
                 n = products.index(i)
                 try:
