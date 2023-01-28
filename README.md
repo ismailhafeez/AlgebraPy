@@ -7,9 +7,13 @@ For example:
 ```
 import AlgebraPy as AP
 solver = AP.Algebra()
-print(solver.BasicSolution("x + 5 = 10")
+print(solver.Equation("x + 5 = 10")
+
+Output: x=5 <string>
 -----------------------------------------
-Output: 5
+print(solver.Equation("x+y+5=20")
+
+Output: y+x=15 <string>
 ```
 As this is a project still in development, it has many limitations.
 
