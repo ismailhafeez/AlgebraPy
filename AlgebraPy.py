@@ -1,5 +1,3 @@
-#"x + 2 = 4"
-
 class Algebra:
     def __init__(self):
         pass
